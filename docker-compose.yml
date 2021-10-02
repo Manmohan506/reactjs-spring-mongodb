@@ -5,7 +5,7 @@ services:
     container_name: react      
     stdin_open: true
     environment: 
-      - REACT_APP_API_URL=http://54.221.2.42:8082/api/v1/employees
+      - REACT_APP_API_URL=http://3.236.68.6:8082/api/v1/employees
       #BACKEND_API: localhost
     ports:
       - "3001:3000"
